@@ -13,10 +13,13 @@ public class BankTransferDto {
 
     @Positive
     private  BigDecimal amount;
+
     @NotEmpty
     private  String currencyCode;
+
     @NotEmpty
     private  String narration;
+
     @NotEmpty
     private  String beneficiaryAccountNumber;
     String beneficiaryAccountName;
